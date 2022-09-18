@@ -13,7 +13,18 @@
     padding: 4px 16px;
 }
 
-.nav__ui{
+.nav__links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    list-style: none;
     text-decoration: none;
-    
+}
+
+.nav__link{
+    padding: 4px;
+    margin: 4px;
 }
