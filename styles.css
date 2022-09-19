@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+.blue__text{
+    color: rgb(34, 80, 173);
+}
+
 .nav__container{
     display: flex;
     align-items: center;
@@ -27,4 +31,17 @@
 .nav__link{
     padding: 4px;
     margin: 4px;
+}
+
+h1{
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 1.25rem;
+    
+}
+
+p{
+    font-size: 16px;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
 }
