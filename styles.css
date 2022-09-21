@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 .main{
     padding: 32px;
 }
@@ -13,12 +14,31 @@
     color: rgb(34, 80, 173);
 }
 
+
+ul{
+    list-style: none;
+}
 .nav__container{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0 16px;
     padding: 4px 16px;
+    height: 50px;
+}
+
+.nav__image{
+    height: 40px;
+}
+
+.nav__img{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav__p{
+    font-weight: 900;
+    font-family: sans-serif;
 }
 
 .nav__links{
@@ -45,7 +65,7 @@
 
 h1{
     font-size: 32px;
-    font-weight: bold;
+    font-weight: bolder;
     line-height: 1.25rem;
     
 }
@@ -55,57 +75,44 @@ p{
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
 }
-.email__input{
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-right: 0.5rem;
+
+.about__inputs{
     display: flex;
-    width: 100%;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
+    flex-direction: row;
+    border: 2px solid darkgrey;
     border-radius: 9999px;
-    --tw-bg-opacity: 1;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    font-weight: 700;
-    --tw-text-opacity: 1;
-    color: rgb(247 250 252 / var(--tw-text-opacity));
-    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
-    transition-duration: 300ms;
+    padding: 4px;
+}
+
+.email__input{
+    width: 100%;
+    border-radius: 100px;
+    border: none;
+}
+
+
+
+.email__input:focus{
+    outline: none;
 }
 
 .about__button{
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    margin-right: 0.5rem;
-    display: flex;
-    width: 100%;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    justify-content: center;
-    border-radius: 9999px;
-    --tw-bg-opacity: 1;
-    background-color: rgb(100 21 255 / var(--tw-bg-opacity));
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    font-weight: 700;
-    --tw-text-opacity: 1;
-    color: rgb(247 250 252 / var(--tw-text-opacity));
-    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
-    transition-duration: 300ms;
+    border: none;
+    background-color: rgb(34, 80, 173);
+    color: white;
+    border-radius: 100px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .about__button.hover{
     background-color: black;
+}
+
+.about__info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .shady__p{
@@ -117,4 +124,10 @@ p{
     margin: 4px;
     height: 120px;
     max-height: 300px;
+}
+
+.undraw__img{
+    width: 100%;
+    max-width: 32rem;
+    min-width: 0px;
 }
