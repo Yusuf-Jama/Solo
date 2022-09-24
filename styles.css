@@ -128,6 +128,17 @@ p{
 
 .undraw__img{
     width: 100%;
-    max-width: 32rem;
-    min-width: 0px;
+    width: 480px;
+    min-width: 100px;
+
+}
+
+.about{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.left{
+    width: 100%;
+
 }
